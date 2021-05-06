@@ -12,3 +12,10 @@ Additionally, there is an Angular 9 version of this codebase that you can fork a
 * node.js.
 * npm - comes with node or download yarn.
 * mongodb - Download page .
+
+## Getting started
+* clone the repo from github repository. 
+* To install the package.json file of Angular. Run npm install
+* To install the package.json fle of Node.js. Run npm init 
+Make sure you have the Angular CLI installed globally and node package manager(npm).In first terminal, Run ng serve for a dev server.In second terminal, Run nodemon server.js/ node server.js for a dev server.
+Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
