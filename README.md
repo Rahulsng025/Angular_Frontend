@@ -21,4 +21,4 @@ Make sure you have the Angular CLI installed globally and node package manager(n
 Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ## Functionality overview
-The example web-application is to show the user details in the form of pie-chart. Data will be fetched from backend server.
+The example web-application is to show the user details in the form of pie-chart.Api call will return a list of users in a delay of 3 sec and these details are in table formate. On the basis of these user details a pie-chart will be draw on next page and all data will be fetched from backend server.
