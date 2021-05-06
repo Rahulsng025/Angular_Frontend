@@ -8,7 +8,7 @@ Additionally, there is an Angular 9 version of this codebase that you can fork a
 * Node.js : JavaScript runtime environment – lets you implement your application back-end in JavaScript
 
 ## Pre-requisites
-* git - Installation guide .
-* node.js - Download page .
-* npm - comes with node or download yarn - Download page .
+* git.
+* node.js.
+* npm - comes with node or download yarn.
 * mongodb - Download page .
