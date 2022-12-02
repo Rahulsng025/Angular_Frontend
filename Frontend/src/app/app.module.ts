@@ -19,10 +19,12 @@ import { ChartLayoutComponent } from './Component/user-detail/chart-layout/chart
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { NavBarComponent } from './Component/nav-bar/nav-bar.component';
+import { LanguageComponent } from './Component/language/language.component';
+import { RecordsComponent } from './records/records.component';
 
 
 @NgModule({
-	declarations: [ AppComponent, UserDetailComponent, PieChartComponent, ChartLayoutComponent, NavBarComponent ],
+	declarations: [ AppComponent, UserDetailComponent, PieChartComponent, ChartLayoutComponent, NavBarComponent, LanguageComponent, RecordsComponent ],
 	imports: [
 		BrowserModule,
 		AppRoutingModule,

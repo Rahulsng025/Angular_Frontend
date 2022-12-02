@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { UserModel } from '../Model/user.model';
 
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Observable } from 'rxjs';
 
 @Injectable({
 	providedIn: 'root'
@@ -13,6 +14,18 @@ export class ChartService {
 
 	// User Model Interface
 	newUser: UserModel[];
+
+	record = [
+		{name: "Jackson", course: "MCA", department: "Computer Science"},
+		
+		{name: "Smith", course: "BCA", department: "Computer Science"},
+		{name: "Hennah", course: "B.Tech", department: "Engineer"},
+		{name: "Sikha", course: "Physics", department: "B.Sc"},
+	
+	]
+
+	link = "../../assets/data.json"
+	
 
 	constructor(private _http: HttpClient) {}
 
@@ -53,5 +66,10 @@ export class ChartService {
 	// POST request api(user): Reference, from node server
 	addUser(newUser: UserModel) {
 		return this._http.post(`${this.uri}/user`, newUser);
+	}
+
+	// Static Data
+	getData(){
+		return this._http.get(this.link)
 	}
 }
